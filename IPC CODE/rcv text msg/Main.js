@@ -43,10 +43,10 @@ function calcRoute() {
             directionsDisplay.setDirections(result);
 
             // Your Twilio account SID, auth token, and phone numbers
-            var accountSid = 'AC83ab7689e4ee07a25ae6429f7cc4a107';
-            var authToken = 'd4260ba36af5a2fa46913b92f4c19d37';
-            var fromNumber = '+13613092761';
-            var toNumber = '+31616671573';
+            var accountSid = 'ACCOUNT ID';
+            var authToken = 'AUTHCODE';
+            var fromNumber = 'TWILIO NO';
+            var toNumber = 'PHONE NO';
 
             // Create a Twilio client
             var client = Twilio(accountSid, authToken);
